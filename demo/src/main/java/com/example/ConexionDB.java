@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class ConexionDB {
     private static final String URL = "jdbc:mariadb://localhost:3306/pais";
-    private static final String USER = "dba_user";
-    private static final String PASSWORD = "191448057devops";
+    private static final String USER = "YOU_DATABASE_USER";
+    private static final String PASSWORD = "YOU_DATABASE_PASSWORD";
 
     public static Connection getConnection() {
         Connection connection = null;
